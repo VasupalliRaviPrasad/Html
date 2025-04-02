@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDFC bank</title>
+    <style>
+        div{
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .forms{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="forms"><h2>Apply for a loan</h2></div>
+    <form class="forms">
+        
+        <div>
+            <div>Name: <input type="text" placeholder="enter your full name" autofocus></div>
+            <div>Aadhar: <input type="file" placeholder="upload your aadhar"></div>
+            <div>Pan Number: <input type="file" placeholder="upload your Pan details"></div>
+            <div>Choose the loan amount: <input type="range" min="50000" max="2000000" value="100000"></div>
+            <div>Select the tenure(months): <input type="number" min="12" max="60" step="12"></div>
+            <div><input type="radio"> I accept terms and condtions</div>
+            <div class="form-switch"><button>Apply</button></div>
+        </div>
+    
+    </form>
+</body>
+</html>

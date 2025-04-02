@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+
+        .forms{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form> 
+        <div align="center"> <h2> Registration form</h2></div>
+        <div align="center" class="forms">
+        <div class="forms">Firstname: <input type="text" name="firstName" value="Ravi" readonly></div>
+        <div class="forms">Lastname: <input type="text" name="lastName" placeholder="enter the lastname" autofocus></div>
+        <div class="forms">Email: <input type="email" name="email" required  list="mails" placeholder="enter your email"></div>
+        <datalist id="mails">
+            <option>vasupalli@gmail.com</option>
+            <option>vasupalli154@gmail.com</option>
+            <option>raviprasad@gmail.com</option>
+            <option>prasad@gmail.com</option>
+        </datalist>
+        <div class="forms">password: <input type="password" name="password" placeholder="enter the password" minlength="5" maxlength="10" autofocus></div>        
+        <button class="forms">Register</button>
+    </div>
+    </form>
+</body>
+</html>

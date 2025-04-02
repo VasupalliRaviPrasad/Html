@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Shopping</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-rows: 1fr 5fr 1fr;
+            border: 3px solid red;
+            height: 100vh;
+        }
+
+        #header,#footer {
+            border: 3px solid blue;
+        }
+
+        #section{
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+            border: 3px solid yellow;
+        }
+
+        li{
+            display: flex;
+            border: 3px solid violet;
+            width: 100px;
+            height: 25px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            margin: 15px;
+            padding: 5px;
+        }
+
+
+        #header{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <h2>Amazon Shopping</h2>
+        </div>
+        <div id="section">
+            <div id="nav" style="border: 3px solid green;">
+                <nav>
+                    <ul style="list-style: none;">
+                        <li><a href="">Home</a></li>
+                        <li><a>Electronis</a></li>
+                        <li><a>Footwear</a></li>
+                        <li><a>Fashion</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="frame" style="border: 3px solid orange;">
+
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
